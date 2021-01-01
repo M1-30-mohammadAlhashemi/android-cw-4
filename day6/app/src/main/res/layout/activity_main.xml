@@ -10,29 +10,31 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/vp"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
-        android:background="#ffd369" />
+        android:layout_height="600dp"
+        android:background="#e7e7de" />
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tap"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="#D8234F"
-        android:backgroundTint="#120078">
+        android:background="#ffff"
+        android:backgroundTint="#ffd369">
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Monday" />
+            android:text="Monday"
+            android:backgroundTint="#ffd369"/>
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tuesday" />
+            android:text="Tuesday"
+            android:backgroundTint="#ffd369"/>
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Wednesday" />
+            android:text="Wednesday"/>
     </com.google.android.material.tabs.TabLayout>
 </LinearLayout>
